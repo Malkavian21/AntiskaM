@@ -6,12 +6,12 @@ import android.os.Bundle
 import android.provider.Settings
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.*
 import androidx.compose.material3.Button
 import androidx.compose.material3.Text
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
 
 class MainActivity : ComponentActivity() {
@@ -19,7 +19,13 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            Box(modifier = Modifier.fillMaxSize()) {
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(16.dp),
+                verticalArrangement = Arrangement.Center,
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
                 Button(
                     onClick = {
                         // Проверяем разрешения перед запуском сервиса
@@ -29,9 +35,19 @@ class MainActivity : ComponentActivity() {
                             requestNecessaryPermissions()
                         }
                     },
-                    modifier = Modifier.align(Alignment.Center)
+                    modifier = Modifier.padding(8.dp)
                 ) {
-                    Text("Запустить мониторинг системы")
+                    Text("Запустить мониторинг")
+                }
+
+                Button(
+                    onClick = {
+                        // Останавливаем сервис
+                        stopService(Intent(this@MainActivity, SystemFailureService::class.java))
+                    },
+                    modifier = Modifier.padding(8.dp)
+                ) {
+                    Text("Остановить мониторинг")
                 }
             }
         }
