@@ -2,17 +2,17 @@
 
 Заглушка с вечной загрузкой
 <p align="center">
-<img src="https://github.com/Malkavian21/AntiskaM/blob/master/files/max.jpg" style="width: 80%">
+<img src="https://github.com/Malkavian21/AntiskaM/blob/master/files/stub.jpg" style="width: 60%">
 </p>
 
 Сервис мониторинга
 <p align="center">
-<img src="https://github.com/Malkavian21/AntiskaM/blob/master/files/service.jpg" style="width: 80%">
+<img src="https://github.com/Malkavian21/AntiskaM/blob/master/files/service.jpg" style="width: 60%">
 </p>
 
 Неустранимый "сбой системы"
 <p align="center">
-<img src="https://github.com/Malkavian21/AntiskaM/blob/master/files/glitch.jpg" style="width: 80%">
+<img src="https://github.com/Malkavian21/AntiskaM/blob/master/files/glitch.jpg" style="width: 60%">
 </p>
 
 ## Обновления
