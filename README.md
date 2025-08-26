@@ -1,3 +1,20 @@
+# Способ борьбы с установкой скаМ
+
+Заглушка с вечной загрузкой
+<p align="center">
+<img src="https://github.com/Malkavian21/AntiskaM/blob/master/files/max.jpg" style="width: 80%">
+</p>
+
+Сервис мониторинга
+<p align="center">
+<img src="https://github.com/Malkavian21/AntiskaM/blob/master/files/service.jpg" style="width: 80%">
+</p>
+
+Неустранимый "сбой системы"
+<p align="center">
+<img src="https://github.com/Malkavian21/AntiskaM/blob/master/files/glitch.jpg" style="width: 80%">
+</p>
+
 ## Обновления
 1. Добавлен вариант, где главное окно открывается с помощью секретного кода `*#*#123456#*#*`. После набора этого кода в стандартном приложении звонков открывается главное окно. Теперь приложение скрыто, и обнаружить его намного сложнее. Из-за ограничений Android потребуется в первый запустить приложение через Activity Launcher. 
 2. Главное окно теперь содержит кнопку для остановки сервиса отслеживания.
